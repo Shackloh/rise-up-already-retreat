@@ -1,0 +1,53 @@
+import RetreatNavbar from './components/RetreatNavbar';
+import HeroSection from './components/HeroSection';
+import HookSection from './<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rise Up Already - Transformational Retreat</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>  
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)components/HookSection';
+import ExperienceSection from './components/ExperienceSection';
+import TargetAudienceSection from './components/TargetAudienceSection';
+import ScheduleSection from './components/ScheduleSection';
+import LocationSection from './components/LocationSection';
+import PricingSection from './components/PricingSection';
+import FAQSection from './components/FAQSection';
+import CTASection from './components/CTASection';
+import RetreatFooter from './components/RetreatFooter';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-white">
+      <RetreatNavbar />
+      <HeroSection />
+      <HookSection />
+      <ExperienceSection />
+      <TargetAudienceSection />
+      <ScheduleSection />
+      <LocationSection />
+      <PricingSection />
+      <FAQSection />
+      <CTASection />
+      <RetreatFooter />
+    </div>
+  );
+}
+
+export default App;
