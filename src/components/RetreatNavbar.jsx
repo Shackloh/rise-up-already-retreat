@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const RetreatNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ const RetreatNavbar = () => {
 
         {/* Mobile Menu Button */}
         <button className="md:hidden" onClick={toggleMenu}>
-          {isOpen ? <FaTimes size={24} /> : <Menu size={24} />}
+          {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
       </div>
 
