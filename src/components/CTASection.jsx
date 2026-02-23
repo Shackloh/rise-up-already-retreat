@@ -1,0 +1,2 @@
+const CTASection = () => <section className="py-20 bg-forest-500 text-white text-center"><h2 className="text-5xl font-bold mb-6">Ready to Transform?</h2><p className="text-xl mb-8">Join us for an unforgettable 3-day retreat</p><button className="bg-gold-500 hover:bg-gold-600 text-forest-900 font-bold py-4 px-8 rounded-lg transition">Reserve Your Spot Now</button></section>;
+export default CTASection;
