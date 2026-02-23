@@ -1,0 +1,2 @@
+const FAQSection = () => <section className="py-20 bg-parchment-100"><h2 className="text-5xl font-bold text-center mb-12 text-forest-500">FAQs</h2><div className="max-w-2xl mx-auto px-6 space-y-6"><div className="bg-white p-6 rounded-lg"><h3 className="font-bold mb-2">What's included?</h3><p>Accommodation, meals, workshops, and activities</p></div><div className="bg-white p-6 rounded-lg"><h3 className="font-bold mb-2">Cancellation policy?</h3><p>30 days before event for full refund</p></div></div></section>;
+export default FAQSection;
